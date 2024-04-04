@@ -14,7 +14,7 @@ The BellChoir project is a Java application that allows users to load and play s
 1. Clone or download the project repository to your local machine.
 2. Open the project in your preferred IDE.
 3. A ```build.xml``` file has been provided to allow easy use. When you are in the cloned directory, run ``` ant run ``` to run the default song, Mary Had a Little Lamb. To run you own song, include
-4. the argument ```-Dsong=<songfile.txt>``` so the whole command looks like ```and run -Dsong=<songfile.txt>```
+4. the argument ```-Dsong=<songfile.txt>``` so the whole command looks like ```ant run -Dsong=<songfile.txt>```
 
 5. Example files of the songfile.txt can be found in the project-- use these to replicate for your own song!
 
