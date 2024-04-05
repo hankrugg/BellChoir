@@ -186,10 +186,8 @@ public class Tone {
     /**
      * Plays a given song.
      * @param song The song to be played.
-     * @throws LineUnavailableException If a line cannot be opened because it is unavailable.
-     * @throws InterruptedException If the current thread is interrupted while sleeping.
      */
-    private void playSong(List<BellNote> song) throws LineUnavailableException, InterruptedException {
+    private void playSong(List<BellNote> song) {
         for (BellNote bn : song) {
             Player player = members.get(bn.note.toString());
             System.out.println(player + " is playing now!");

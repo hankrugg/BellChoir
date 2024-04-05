@@ -25,7 +25,6 @@ public class Player implements Runnable {
 
     /**
      * Starts playing the note with the given length.
-     *
      * @param length The length of the note to be played.
      */
     public synchronized void startPlaying(NoteLength length) {
