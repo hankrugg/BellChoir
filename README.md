@@ -1,6 +1,6 @@
 # BellChoir Project
 
-The BellChoir project is a Java application that allows users to load and play songs using predefined musical notes. It provides functionality for loading songs from text files, playing them using audio playback, and handling various.
+The BellChoir project is a Java application that allows users to load and play songs using predefined musical notes. It provides functionality for loading songs from text files, playing them using audio playback, and handling various errors in song files.
 
 ## Features
 
